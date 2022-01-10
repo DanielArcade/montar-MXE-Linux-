@@ -1,5 +1,5 @@
 1=
-Em
+
 
 git clone https://github.com/DanielArcade/montar-MXE-Linux-.git
 cd montar-MXE-Linux-
