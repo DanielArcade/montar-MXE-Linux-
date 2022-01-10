@@ -6,12 +6,15 @@ Montar MXE Linux (testado Linux Ubuntu e no Linux Mint)
 //-----------------------------------------------------------------------------------------------------------------
 
 1
+
 sudo apt-get update
 
 2
+
 sudo apt-get install build-essential
 
 3
+
 sudo apt-get install \
     autoconf \
     automake \
@@ -45,19 +48,23 @@ sudo apt-get install \
     wget \
     xz-utils
 
-4	
+4
+	
 git clone https://github.com/mxe/mxe.git
 cd mxe
 		
-5	
+5
+	
 make MXE_TARGETS='x86_64-w64-mingw32.static i686-w64-mingw32.static' ffmpeg sfml  //--- 32-Bits e 64-Bits
 
 
 ou
+
 make MXE_TARGETS='x86_64-w64-mingw32.static' ffmpeg sfml  //--- 64-Bits
 
 
 ou
+
 make MXE_TARGETS='i686-w64-mingw32.static' ffmpeg sfml  //--- 32-Bits
 
 
