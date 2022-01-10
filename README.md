@@ -1,4 +1,4 @@
-1=
+[Remote "teste"]
 
 git clone https://github.com/DanielArcade/montar-MXE-Linux-.git
 cd montar-MXE-Linux-
