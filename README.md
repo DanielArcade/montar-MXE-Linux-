@@ -51,9 +51,15 @@ cd mxe
 		
 5	
 make MXE_TARGETS='x86_64-w64-mingw32.static i686-w64-mingw32.static' ffmpeg sfml  //--- 32-Bits e 64-Bits
+
+
 ou
 make MXE_TARGETS='x86_64-w64-mingw32.static' ffmpeg sfml  //--- 64-Bits
+
+
 ou
 make MXE_TARGETS='i686-w64-mingw32.static' ffmpeg sfml  //--- 32-Bits
+
+
 
 //-----------------------------------------------------------------------------------------------------------------
