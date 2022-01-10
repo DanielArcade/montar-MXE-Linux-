@@ -57,17 +57,17 @@ cd mxe
 
 Para 32 e 64 bits 
 	
-make MXE_TARGETS='x86_64-w64-mingw32.static i686-w64-mingw32.static' ffmpeg sfml  //--- 32-Bits e 64-Bits
+make MXE_TARGETS='x86_64-w64-mingw32.static i686-w64-mingw32.static' ffmpeg sfml
 
 
 Para 64 bits
 
-make MXE_TARGETS='x86_64-w64-mingw32.static' ffmpeg sfml  //--- 64-Bits
+make MXE_TARGETS='x86_64-w64-mingw32.static' ffmpeg sfml
 
 
 Para 32 bits 
 
-make MXE_TARGETS='i686-w64-mingw32.static' ffmpeg sfml  //--- 32-Bits
+make MXE_TARGETS='i686-w64-mingw32.static' ffmpeg sfml
 
 
 
